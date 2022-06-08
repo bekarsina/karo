@@ -204,3 +204,10 @@ body {
 }
 
 /* end main content head*/
+
+/* satrt brands */
+
+.choise-for-user{
+  justify-content: space-around;
+  margin-top: 90px;
+}
