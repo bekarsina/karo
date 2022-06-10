@@ -22,6 +22,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("Gilroy-Bold") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 *,
 html {
   margin: 0;
@@ -205,9 +212,73 @@ body {
 
 /* end main content head*/
 
+/* start choise for user */
+
 /* satrt brands */
 
-.choise-for-user{
+.brands {
+  justify-content: space-around;
+}
+
+/* end brands */
+
+.choise-for-user-bg-left, .choise-for-user-bg-right{
+  pointer-events: none;
+}
+
+.choise-for-user {
   justify-content: space-around;
   margin-top: 90px;
+  position: relative;
 }
+
+.choise-for-user::after {
+  background-image: url(../images/bg-left.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.choise-for-user-content-title {
+  font-family: "Gilroy";
+  color: #99efd0;
+  font-size: 42px;
+  margin-top: 100px;
+}
+
+.choise-for-user-content-title-description {
+  font-family: "Gilroy-SemiBold";
+  font-size: 16px;
+  color: #8476aa;
+  margin: 13px 0 50px 0;
+}
+
+.choise-for-user-content-items {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.choise-for-user-content-item {
+  width: 300px;
+  height: 106px;
+  margin-top: 35px;
+}
+
+.choise-for-user-content-item-left {
+  margin-right: 31px;
+}
+
+.choise-for-user-content-item-title {
+  font-family: "Gilroy-Bold";
+  color: #99efd0;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+.choise-for-user-content-item-description {
+  font-family: "Gilroy-SemiBold";
+  font-size: 14px;
+  color: #8476aa;
+}
+
+/* end choise for user */
