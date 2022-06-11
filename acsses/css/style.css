@@ -40,6 +40,7 @@ body {
   height: 100%;
   width: 100%;
   background: linear-gradient(222.26deg, #3b1d60 1.22%, #040d3e 106.28%);
+  overflow-x: hidden;
 }
 
 /* start global class*/
@@ -232,11 +233,16 @@ body {
   position: relative;
 }
 
-.choise-for-user::after {
-  background-image: url(../images/bg-left.png);
+.choise-for-user-bg-left{
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -60px;
+  left: -200px;
+}
+
+.choise-for-user-bg-right{
+  position: absolute;
+  top: -80px;
+  right: -200px;
 }
 
 .choise-for-user-content-title {
