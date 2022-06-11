@@ -55,18 +55,12 @@ body {
   align-items: center;
 }
 
-.f-right {
-  display: flex;
-  justify-content: right;
-}
-
-.f-left {
-  display: flex;
-  justify-content: left;
-}
-
 .pointer {
   cursor: pointer;
+}
+
+.orange {
+  color: #f2994a;
 }
 
 /* end global class*/
@@ -223,7 +217,8 @@ body {
 
 /* end brands */
 
-.choise-for-user-bg-left, .choise-for-user-bg-right{
+.choise-for-user-bg-left,
+.choise-for-user-bg-right {
   pointer-events: none;
 }
 
@@ -233,13 +228,13 @@ body {
   position: relative;
 }
 
-.choise-for-user-bg-left{
+.choise-for-user-bg-left {
   position: absolute;
   top: -60px;
   left: -200px;
 }
 
-.choise-for-user-bg-right{
+.choise-for-user-bg-right {
   position: absolute;
   top: -80px;
   right: -200px;
@@ -290,3 +285,29 @@ body {
 /* end choise for user */
 
 /* start simple way section */
+
+.simple-way-section {
+  flex-direction: column;
+  margin-top: 217px;
+}
+
+.simple-way-section-title, .simple-way-section-title-item {
+  color: #99efd0;
+  font-size: 36px;
+  text-align: center;
+}
+
+.simple-way-section-description, .simple-way-section-description-item{
+  font-size: 15px;
+  color: #8476AA;
+  text-align: center;
+}
+
+.simple-way-section-description{
+ margin: 32px 0 48px 0;
+}
+
+.simple-way-section-items{
+  justify-content: space-around;
+}
+/* end simple way section */
