@@ -63,6 +63,18 @@ body {
   color: #f2994a;
 }
 
+.button{
+  width: 112px;
+  height: 36px;
+  background-color: rgba(242, 153, 74, 1);
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 20px;
+  box-shadow: -11.09000015258789px 18.1299991607666px 36.648292541503906px 0px
+    rgba(242, 153, 74, 0.13);
+  border: none;
+}
+
 /* end global class*/
 
 .container {
@@ -122,19 +134,6 @@ body {
   margin-right: 20px;
   border-radius: 4px;
   background: transparent;
-}
-
-.btn-right-signup,
-.content-head-left-btn-l {
-  width: 112px;
-  height: 36px;
-  background-color: rgba(242, 153, 74, 1);
-  color: #fff;
-  border-radius: 4px;
-  margin-right: 20px;
-  box-shadow: -11.09000015258789px 18.1299991607666px 36.648292541503906px 0px
-    rgba(242, 153, 74, 0.13);
-  border: none;
 }
 
 /* end header */
@@ -283,6 +282,31 @@ body {
 }
 
 /* end choise for user */
+
+/* start busines content section */
+
+.busines-content-section{
+  margin-top: 170px;
+  justify-content: space-around;
+}
+
+.busines-content-section-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.busines-content-section-left-title{
+  font-size: 42px;
+  color: #99efd0;
+}
+
+.busines-content-section-left-description{
+  font-size: 15px;
+  color: #8476AA;
+  margin: 32px 0 43px;
+}
+
+/* end busines content section */
 
 /* start simple way section */
 
