@@ -288,6 +288,13 @@ body {
 .busines-content-section{
   margin-top: 170px;
   justify-content: space-around;
+  position: relative;
+}
+
+.busines-content-section-bg{
+  position: absolute;
+  bottom: -350px;
+  left: -100px;
 }
 
 .busines-content-section-left{
