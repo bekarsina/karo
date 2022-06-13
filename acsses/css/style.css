@@ -63,7 +63,7 @@ body {
   color: #f2994a;
 }
 
-.button{
+.button {
   width: 112px;
   height: 36px;
   background-color: rgba(242, 153, 74, 1);
@@ -285,31 +285,31 @@ body {
 
 /* start busines content section */
 
-.busines-content-section{
+.busines-content-section {
   margin-top: 170px;
   justify-content: space-around;
   position: relative;
 }
 
-.busines-content-section-bg{
+.busines-content-section-bg {
   position: absolute;
   bottom: -350px;
   left: -100px;
 }
 
-.busines-content-section-left{
+.busines-content-section-left {
   display: flex;
   flex-direction: column;
 }
 
-.busines-content-section-left-title{
+.busines-content-section-left-title {
   font-size: 42px;
   color: #99efd0;
 }
 
-.busines-content-section-left-description{
+.busines-content-section-left-description {
   font-size: 15px;
-  color: #8476AA;
+  color: #8476aa;
   margin: 32px 0 43px;
 }
 
@@ -322,25 +322,48 @@ body {
   margin-top: 217px;
 }
 
-.simple-way-section-title, .simple-way-section-title-item {
+.simple-way-section-title,
+.simple-way-section-title-item {
   color: #99efd0;
   font-size: 36px;
   text-align: center;
 }
 
-.simple-way-section-description, .simple-way-section-description-item{
+.simple-way-section-description,
+.simple-way-section-description-item {
   font-size: 15px;
-  color: #8476AA;
+  color: #8476aa;
   text-align: center;
 }
 
-.simple-way-section-description{
- margin: 32px 0 48px 0;
+.simple-way-section-description {
+  margin: 32px 0 48px 0;
 }
 
-.simple-way-section-items{
+.simple-way-section-items {
   justify-content: space-around;
 }
 /* end simple way section */
 
 /* start craet peoject section */
+.craet-peoject-section {
+  flex-direction: column;
+  margin-top: 170px;
+  position: relative;
+}
+
+.craet-peoject-section-title {
+  color: #99efd0;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.craet-peoject-section-btn{
+  width: 160px;
+  height: 54px;
+}
+
+.craet-peoject-section-bg {
+  margin: -140px 0 0 -15px;
+}
