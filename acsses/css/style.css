@@ -73,6 +73,7 @@ body {
   box-shadow: -11.09000015258789px 18.1299991607666px 36.648292541503906px 0px
     rgba(242, 153, 74, 0.13);
   border: none;
+  cursor: pointer;
 }
 
 /* end global class*/
@@ -368,3 +369,5 @@ body {
   margin: -140px 0 0 -15px;
 }
 /* end craet peoject section */
+
+/* start Invest property section */
