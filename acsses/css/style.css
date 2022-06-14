@@ -371,3 +371,39 @@ body {
 /* end craet peoject section */
 
 /* start Invest property section */
+
+.Invest-property-section{
+  height: 700px;
+  justify-content: space-around;
+  margin-top: 83px;
+}
+
+.Invest-property-section-left-title{
+  font-size: 42px;
+  color: #99efd0;
+}
+
+.Invest-property-section-left{
+  margin-top: 40px;
+}
+
+.Invest-property-section-left-description{
+  font-size: 15px;
+  color: #8476aa;
+  margin: 32px 0 46px 0;
+}
+
+.Invest-property-section-right{
+  position: relative;
+  width: 50%;
+}
+.Invest-property-section-right-bg{
+  position: absolute;
+  top: 50px;
+  right: -200px;
+}
+.Invest-property-section-right-ob{
+  position: absolute;
+  right: -10px;
+}
+/* end Invest property section */
