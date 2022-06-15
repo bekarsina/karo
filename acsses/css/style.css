@@ -360,7 +360,7 @@ body {
   margin-bottom: 50px;
 }
 
-.craet-peoject-section-btn{
+.craet-peoject-section-btn {
   width: 160px;
   height: 54px;
 }
@@ -372,40 +372,81 @@ body {
 
 /* start Invest property section */
 
-.Invest-property-section{
+.Invest-property-section {
   height: 700px;
   justify-content: space-around;
   margin-top: 83px;
 }
 
-.Invest-property-section-left-title{
+.Invest-property-section-left-title {
   font-size: 42px;
   color: #99efd0;
 }
 
-.Invest-property-section-left{
+.Invest-property-section-left {
   margin-top: 40px;
 }
 
-.Invest-property-section-left-description{
+.Invest-property-section-left-description {
   font-size: 15px;
   color: #8476aa;
   margin: 32px 0 46px 0;
 }
 
-.Invest-property-section-right{
+.Invest-property-section-right {
   position: relative;
   width: 50%;
 }
-.Invest-property-section-right-bg{
+.Invest-property-section-right-bg {
   position: absolute;
   top: 50px;
   right: -200px;
 }
-.Invest-property-section-right-ob{
+.Invest-property-section-right-ob {
   position: absolute;
   right: -10px;
 }
 /* end Invest property section */
 
 /*  start Help Finding Information Online section  */
+.Help-finding-section {
+  justify-content: space-around;
+}
+
+.Help-finding-section-right {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Help-finding-section-right-title {
+  color: #99efd0;
+  font-size: 26px;
+}
+
+.Help-finding-section-right-description {
+  font-family: "Gilroy-SemiBold";
+  font-size: 15px;
+  color: #8476aa;
+  letter-spacing: 0.2px;
+  margin-top: 32px;
+}
+
+.Help-finding-section-left-items {
+  margin-top: 48px;
+}
+
+.Help-finding-section-left-item:first-child {
+  margin-right: 60px;
+}
+
+.Help-finding-section-left-item-title {
+  font-size: 15px;
+  color: #99efd0;
+}
+
+.Help-finding-section-left-item-description {
+  font-size: 15px;
+  color: #8476aa;
+  margin: 20px 0 8px 0;
+}
+/*  end Help Finding Information Online section */
