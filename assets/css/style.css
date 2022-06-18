@@ -452,3 +452,55 @@ body {
 /* end Help Finding Information Online section */
 
 /* start contact us section */
+.contact-us-section {
+  width: 940px;
+  height: 324px;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  border-radius: 5px;
+  margin: 180px auto;
+  flex-direction: column;
+}
+
+.contact-us-section-title{
+  font-size: 36px;
+}
+
+.contact-us-section-description{
+  color: #95A1BB;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-us-section-email{
+  width: 300px;
+  height: 56px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background: #F6F6F610;
+  font-size: 14px;
+}
+
+input[type = email]{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  opacity: 1;
+}
+
+.contact-us-section-send{
+  height: 56px;
+  width: 128px;
+  background-color: #f2994a;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+input[type = submit]{
+  font-size: 12px;
+  color: #fff;
+  opacity: 1;
+  letter-spacing: 2px;
+}
+/* end contact us section */
