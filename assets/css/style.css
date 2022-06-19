@@ -411,6 +411,14 @@ body {
 /*  start Help Finding Information Online section  */
 .Help-finding-section {
   justify-content: space-around;
+  position: relative;
+}
+
+.Help-finding-section-bg{
+  width: 200px;
+  position: absolute;
+  right: -100px;
+  top: 15px;
 }
 
 .Help-finding-section-right {
