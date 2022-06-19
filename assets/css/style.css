@@ -452,7 +452,11 @@ body {
 /* end Help Finding Information Online section */
 
 /* start contact us section */
-.contact-us-section {
+.contact-us-section-bg {
+  position: absolute;
+}
+
+.contact-us-section-content {
   width: 940px;
   height: 324px;
   background: rgba(60, 62, 125, 0.19);
@@ -460,36 +464,37 @@ body {
   border-radius: 5px;
   margin: 180px auto;
   flex-direction: column;
+  position: relative;
 }
 
-.contact-us-section-title{
+.contact-us-section-title {
   font-size: 36px;
 }
 
-.contact-us-section-description{
-  color: #95A1BB;
+.contact-us-section-description {
+  color: #95a1bb;
   font-size: 16px;
   text-align: center;
   margin: 20px 0;
 }
 
-.contact-us-section-email{
+.contact-us-section-email {
   width: 300px;
   height: 56px;
   border: none;
   border-radius: 5px 0 0 5px;
-  background: #F6F6F610;
+  background: #f6f6f610;
   font-size: 14px;
 }
 
-input[type = email]{
+input[type="email"] {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
   opacity: 1;
 }
 
-.contact-us-section-send{
+.contact-us-section-send {
   height: 56px;
   width: 128px;
   background-color: #f2994a;
@@ -497,7 +502,7 @@ input[type = email]{
   border-radius: 0 5px 5px 0;
 }
 
-input[type = submit]{
+input[type="submit"] {
   font-size: 12px;
   color: #fff;
   opacity: 1;
