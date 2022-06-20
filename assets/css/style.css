@@ -34,6 +34,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Gilroy";
 }
 
 body {
@@ -53,6 +54,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.f-right {
+  display: flex;
+  justify-content: right;
 }
 
 .pointer {
@@ -328,6 +334,7 @@ body {
   color: #99efd0;
   font-size: 36px;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .simple-way-section-description,
@@ -414,7 +421,7 @@ body {
   position: relative;
 }
 
-.Help-finding-section-bg{
+.Help-finding-section-bg {
   width: 200px;
   position: absolute;
   right: -100px;
@@ -493,13 +500,14 @@ body {
   border-radius: 5px 0 0 5px;
   background: #f6f6f610;
   font-size: 14px;
+  color: #fff;
 }
 
-input[type="email"] {
+.contact-us-section-email::placeholder {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
-  opacity: 1;
+  opacity: 40%;
+  margin-left: 20px;
 }
 
 .contact-us-section-send {
@@ -508,14 +516,80 @@ input[type="email"] {
   background-color: #f2994a;
   border: none;
   border-radius: 0 5px 5px 0;
-}
-
-input[type="submit"] {
-  font-size: 12px;
+  font-family: none;
   color: #fff;
-  opacity: 1;
   letter-spacing: 2px;
 }
+
+.contact-us-section-send::placeholder {
+  font-size: 12px;
+  opacity: 1;
+}
+
 /* end contact us section */
 
 /* start footer */
+
+.footer {
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.footer-bg {
+  position: absolute;
+  left: -102px;
+  bottom: 3px;
+  opacity: 0.2;
+}
+
+.footer-top-section {
+  justify-content: space-between;
+}
+
+.foote-top-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #f6f6f610;
+  color: #fff;
+  border-radius: 50px;
+  margin: 0 7px;
+}
+
+.foote-top-title {
+  font-size: 26px;
+}
+
+.footer-down-items {
+  justify-content: space-between;
+  margin: 80px 0 100px 0;
+}
+
+.footer-down-item {
+  flex-direction: column;
+}
+
+.footer-down-item-title {
+  margin-bottom: 9px;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Gilroy";
+}
+
+.footer-down-item-about {
+  margin: 16px 0;
+  color: #fff;
+  font-family: "Gilroy-Bold";
+  cursor: pointer;
+}
+
+.footer-copyright {
+  margin-bottom: 100px;
+}
+
+.footer-copyright-item {
+  color: #8d8d8d;
+  margin-right: 34px;
+}
+
+/* end footer */
