@@ -82,6 +82,16 @@ body {
   cursor: pointer;
 }
 
+.title{
+  color: #99efd0;
+  font-size: 42px;
+}
+
+.description{
+  font-size: 16px;
+  color: #8476aa;
+}
+
 /* end global class*/
 
 .container {
@@ -248,15 +258,11 @@ body {
 
 .choise-for-user-content-title {
   font-family: "Gilroy";
-  color: #99efd0;
-  font-size: 42px;
   margin-top: 100px;
 }
 
 .choise-for-user-content-title-description {
   font-family: "Gilroy-SemiBold";
-  font-size: 16px;
-  color: #8476aa;
   margin: 13px 0 50px 0;
 }
 
@@ -277,15 +283,12 @@ body {
 
 .choise-for-user-content-item-title {
   font-family: "Gilroy-Bold";
-  color: #99efd0;
   font-size: 18px;
   margin-bottom: 13px;
 }
 
 .choise-for-user-content-item-description {
   font-family: "Gilroy-SemiBold";
-  font-size: 14px;
-  color: #8476aa;
 }
 
 /* end choise for user */
@@ -309,14 +312,8 @@ body {
   flex-direction: column;
 }
 
-.busines-content-section-left-title {
-  font-size: 42px;
-  color: #99efd0;
-}
-
 .busines-content-section-left-description {
   font-size: 15px;
-  color: #8476aa;
   margin: 32px 0 43px;
 }
 
@@ -339,8 +336,6 @@ body {
 
 .simple-way-section-description,
 .simple-way-section-description-item {
-  font-size: 15px;
-  color: #8476aa;
   text-align: center;
 }
 
@@ -361,8 +356,6 @@ body {
 }
 
 .craet-peoject-section-title {
-  color: #99efd0;
-  font-size: 42px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -385,18 +378,11 @@ body {
   margin-top: 83px;
 }
 
-.Invest-property-section-left-title {
-  font-size: 42px;
-  color: #99efd0;
-}
-
 .Invest-property-section-left {
   margin-top: 40px;
 }
 
 .Invest-property-section-left-description {
-  font-size: 15px;
-  color: #8476aa;
   margin: 32px 0 46px 0;
 }
 
@@ -440,8 +426,6 @@ body {
 
 .Help-finding-section-right-description {
   font-family: "Gilroy-SemiBold";
-  font-size: 15px;
-  color: #8476aa;
   letter-spacing: 0.2px;
   margin-top: 32px;
 }
@@ -460,8 +444,6 @@ body {
 }
 
 .Help-finding-section-left-item-description {
-  font-size: 15px;
-  color: #8476aa;
   margin: 20px 0 8px 0;
 }
 /* end Help Finding Information Online section */
